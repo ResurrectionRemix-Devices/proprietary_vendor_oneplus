@@ -56,17 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/bacon/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/oneplus/bacon/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so
 
-# Firmware images
-PRODUCT_COPY_FILES += \
-    vendor/oneplus/bacon/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
-    vendor/oneplus/bacon/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
-    vendor/oneplus/bacon/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
-    vendor/oneplus/bacon/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
-    vendor/oneplus/bacon/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06 \
-    vendor/oneplus/bacon/proprietary/etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
-    vendor/oneplus/bacon/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
-    vendor/oneplus/bacon/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09 \
-    vendor/oneplus/bacon/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt 
 
 PRODUCT_COPY_FILES += \
     vendor/oneplus/bacon/proprietary/lib/hw/camera.vendor.bacon.so:system/lib/hw/camera.vendor.bacon.so \
