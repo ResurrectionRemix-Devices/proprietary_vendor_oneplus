@@ -84,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/oneplus/sm8150-common/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
     vendor/oneplus/sm8150-common/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml \
+    vendor/oneplus/sm8150-common/proprietary/product/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.dolby.daxservice.xml \
     vendor/oneplus/sm8150-common/proprietary/product/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/dpmapi.xml \
     vendor/oneplus/sm8150-common/proprietary/product/etc/permissions/embms.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/embms.xml \
     vendor/oneplus/sm8150-common/proprietary/product/etc/permissions/privapp-permissions-oem-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-oem-product.xml \
@@ -1612,6 +1613,8 @@ PRODUCT_PACKAGES += \
     libsdm-disp-apis.qti \
     NxpNfcNci \
     NxpSecureElement \
+    OPSoundTuner \
+    daxService \
     SoterService \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
