@@ -100,9 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/hotdog/proprietary/vendor/etc/sensors/config/tcs3701.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3701.json \
     vendor/oneplus/hotdog/proprietary/vendor/etc/sensors/config/tmd3702.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tmd3702.json \
     vendor/oneplus/hotdog/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/oneplus/hotdog/proprietary/vendor/firmware/notif_Ardour.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_Ardour.bin \
-    vendor/oneplus/hotdog/proprietary/vendor/firmware/notif_Chic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_Chic.bin \
-    vendor/oneplus/hotdog/proprietary/vendor/firmware/ring_McLarn.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_McLarn.bin \
     vendor/oneplus/hotdog/proprietary/vendor/lib/camera/components/com.oneplus.node.bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.oneplus.node.bokeh.so \
     vendor/oneplus/hotdog/proprietary/vendor/lib/camera/components/com.oneplus.node.rtb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.oneplus.node.rtb.so \
     vendor/oneplus/hotdog/proprietary/vendor/lib/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib/fp_hal_extension.so \
@@ -113,6 +110,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/hotdog/proprietary/vendor/lib/libgf_ud_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_ud_hal.so \
     vendor/oneplus/hotdog/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/oneplus/hotdog/proprietary/vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
+    vendor/oneplus/hotdog/proprietary/vendor/firmware/notif_Ardour.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_Ardour.bin \
+    vendor/oneplus/hotdog/proprietary/vendor/firmware/notif_Chic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_Chic.bin \
+    vendor/oneplus/hotdog/proprietary/vendor/firmware/ring_McLarn.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_McLarn.bin \
     vendor/oneplus/hotdog/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_imx481.bin \
     vendor/oneplus/hotdog/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_imx586.bin \
     vendor/oneplus/hotdog/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_s5k3m5.bin \
