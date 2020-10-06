@@ -134,16 +134,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "OPSoundTuner",
-	owner: "oneplus",
-	apk: "proprietary/app/OPSoundTuner/OPSoundTuner.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "SoterService",
 	owner: "oneplus",
 	apk: "proprietary/app/SoterService/SoterService.apk",
@@ -187,10 +177,11 @@ android_app_import {
 }
 
 android_app_import {
-	name: "daxService",
+	name: "SoundTuner",
 	owner: "oneplus",
-	apk: "proprietary/priv-app/daxService/daxService.apk",
+	apk: "proprietary/priv-app/SoundTuner/SoundTuner.apk",
 	certificate: "platform",
+	overrides: ["AudioFX"],
 	dex_preopt: {
 		enabled: false,
 	},
